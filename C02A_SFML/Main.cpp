@@ -21,7 +21,9 @@ const GLchar* fragmentShader = R"glsl(
 
 int main()
 {
-	// create the window
+	// create the window (SFML handles creating the window)
+	// SFML is a DLL, so it has been precompiled, so you cannot see the definition.
+	// It is already in 0s and 1s, so it is secure, but you cannot see the definition.
 	sf::Window window(sf::VideoMode(800, 600), "SFML_Toolkit", sf::Style::Default, sf::ContextSettings(32));
 	window.setVerticalSyncEnabled(true);
 

@@ -126,7 +126,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdLi
 		return FALSE;								// Return FALSE
 	}
 
-	static	PIXELFORMATDESCRIPTOR pfd =	// pfd tells the window how we want render to be
+	static	PIXELFORMATDESCRIPTOR pfd =	// pfd tells the window how we want render / what we want to render
 	{
 		sizeof(PIXELFORMATDESCRIPTOR),	// Size Of This Pixel Format Descriptor
 		1,								// Version Number
